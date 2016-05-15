@@ -1,0 +1,48 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(C:\Users\Chris\Documents\GitHub\Scala-Akka-Chess-Game\Client\src\main\scala\Main.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(C:\Users\Chris\Documents\GitHub\Scala-Akka-Chess-Game\Client\src\main\scala\Main.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\Chris\Documents\GitHub\Scala-Akka-Chess-Game\Client\src\main\scala\Main.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to C:\Users\Chris\Documents\GitHub\Scala-Akka-Chess-Game\Client\src\main\scala\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 6c3cc7c4, interfacing (CompilerInterface) with Scala compiler version 2.10.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes;C:\Users\Chris\.sbt\boot\scala-2.10.4\lib\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Chris\Documents\GitHub\Scala-Akka-Chess-Game\Client\src\main\scala\target\scala-2.10\classes[0m
+[0m[[31merror[0m] [0mC:\Users\Chris\Documents\GitHub\Scala-Akka-Chess-Game\Client\src\main\scala\Main.scala:3: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.Actor[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0mC:\Users\Chris\Documents\GitHub\Scala-Akka-Chess-Game\Client\src\main\scala\Main.scala:4: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.ActorSystem[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0mC:\Users\Chris\Documents\GitHub\Scala-Akka-Chess-Game\Client\src\main\scala\Main.scala:5: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor.Props[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0mC:\Users\Chris\Documents\GitHub\Scala-Akka-Chess-Game\Client\src\main\scala\Main.scala:8: not found: type Actor[0m
+[0m[[31merror[0m] [0mclass HelloActor(myName: String) extends Actor {[0m
+[0m[[31merror[0m] [0m                                         ^[0m
+[0m[[31merror[0m] [0mC:\Users\Chris\Documents\GitHub\Scala-Akka-Chess-Game\Client\src\main\scala\Main.scala:9: missing parameter type for expanded function[0m
+[0m[[31merror[0m] [0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[31merror[0m] [0mExpected type was: ?[0m
+[0m[[31merror[0m] [0m  def receive = {[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0mC:\Users\Chris\Documents\GitHub\Scala-Akka-Chess-Game\Client\src\main\scala\Main.scala:17: not found: value ActorSystem[0m
+[0m[[31merror[0m] [0m val system = ActorSystem("System")[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m6 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

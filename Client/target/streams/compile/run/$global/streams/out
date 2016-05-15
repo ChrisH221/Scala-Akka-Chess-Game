@@ -1,10 +1,48 @@
-[0m[[0minfo[0m] [0mRunning Hi [0m
+[0m[[0minfo[0m] [0mRunning Main [0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread run-main-1 to terminate.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	C:\Users\Chris\Documents\GitHub\Scala-Akka-Chess-Game\Client\target\scala-2.11\classes[0m
 [0m[[0mdebug[0m] [0m	C:\Users\Chris\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar[0m
-[0m[[0mdebug[0m] [0m	Thread run-main-1 exited.[0m
-[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
-[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
-[0m[[0mdebug[0m] [0mExited with code 0[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Chris\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Chris\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread System-akka.actor.default-dispatcher-2 to terminate.[0m
+[0m[[0mdebug[0m] [0mDisposing 1 top-level windows...[0m
+[0m[[0mdebug[0m] [0mWaiting 2 s to let AWT thread exit.[0m
+[0m[[33mwarn[0m] [0mRun canceled.[0m
+[0m[[0mdebug[0m] [0mDisposing 1 top-level windows...[0m
+[0m[[0mdebug[0m] [0mInterrupting thread System-akka.actor.default-dispatcher-2[0m
+[0m[[0mdebug[0m] [0m	Interrupted System-akka.actor.default-dispatcher-2[0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[Thread-1,6,system][0m
+[0m[[0mdebug[0m] [0mInterrupting thread System-akka.actor.default-dispatcher-5[0m
+[0m[[0mdebug[0m] [0m	Interrupted System-akka.actor.default-dispatcher-5[0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[D3D Screen Updater,7,system][0m
+[0m[[0mdebug[0m] [0mInterrupting thread System-scheduler-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted System-scheduler-1[0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[Thread-2,5,system][0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[Java2D Disposer,10,system][0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[AWT-Shutdown,5,system][0m
+[0m[[0mdebug[0m] [0mInterrupting thread AWT-EventQueue-0[0m
+[0m[[0mdebug[0m] [0m	Interrupted AWT-EventQueue-0[0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[AWT-Windows,6,system][0m
+[0m[[0mdebug[0m] [0mInterrupting thread System-akka.actor.default-dispatcher-3[0m
+[0m[[0mdebug[0m] [0m	Interrupted System-akka.actor.default-dispatcher-3[0m
+[0m[[0mdebug[0m] [0mInterrupting thread System-akka.actor.default-dispatcher-4[0m
+[0m[[0mdebug[0m] [0m	Interrupted System-akka.actor.default-dispatcher-4[0m
+[0m[[0mdebug[0m] [0mWaiting 2 s to let AWT thread exit.[0m
+[0m[[0mdebug[0m] [0mInterrupting thread System-akka.actor.default-dispatcher-2[0m
+[0m[[0mdebug[0m] [0m	Interrupted System-akka.actor.default-dispatcher-2[0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[Thread-1,6,system][0m
+[0m[[0mdebug[0m] [0mInterrupting thread System-akka.actor.default-dispatcher-5[0m
+[0m[[0mdebug[0m] [0m	Interrupted System-akka.actor.default-dispatcher-5[0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[D3D Screen Updater,7,system][0m
+[0m[[0mdebug[0m] [0mInterrupting thread System-scheduler-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted System-scheduler-1[0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[Thread-2,5,system][0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[Java2D Disposer,10,system][0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[AWT-Windows,6,system][0m
+[0m[[0mdebug[0m] [0mInterrupting thread System-akka.actor.default-dispatcher-3[0m
+[0m[[0mdebug[0m] [0m	Interrupted System-akka.actor.default-dispatcher-3[0m
+[0m[[0mdebug[0m] [0mInterrupting thread System-akka.actor.default-dispatcher-4[0m
+[0m[[0mdebug[0m] [0m	Interrupted System-akka.actor.default-dispatcher-4[0m
