@@ -1,0 +1,4 @@
+class Queen with Piece{
+
+
+}

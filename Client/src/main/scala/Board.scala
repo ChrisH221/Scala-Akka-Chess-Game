@@ -11,7 +11,6 @@ class ChessBoard extends JFrame with MouseListener {
     this.setResizable(false)
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
     this.setVisible(true)
-
 	val c = getContentPane
     c.setLayout(new GridLayout(8, 8, 1, 1))
 	
@@ -19,16 +18,8 @@ class ChessBoard extends JFrame with MouseListener {
 	
 	}
 	
-	
-
 
   def mouseClicked(e: MouseEvent) {
-  }
-
-  def mouseEntered(e: MouseEvent) {
-  }
-
-  def mouseExited(e: MouseEvent) {
   }
 
   def mousePressed(e: MouseEvent) {

@@ -11,9 +11,9 @@ class actor extends Actor {
 }
 
 object Main extends App {
- val system = ActorSystem("System")
+// val system = ActorSystem("System")
   
-  val Actor = system.actorOf(Props[actor], name = "helloactor")
+  //val Actor = system.actorOf(Props[actor], name = "helloactor")
 
   val board = new ChessBoard()
   board.setup
