@@ -14,38 +14,51 @@ class Board extends JFrame with MouseListener {
         val c = getContentPane
         c.setLayout(new GridLayout(8, 8,1,1))
         
-        var i = 32
-        var swap = false
-        var count = 1
-        while(i > 0){
+        
+        var count = 0
+        
+        var x = 64
+        
+        var string = "black"
+        while(x > 0){
             
-            var j1 = new JPanel
-            var j2 = new JPanel
+            var square = new JPanel
             
-            if(!swap){
+            string match {
                 
-                j1.setBackground(Color.BLACK)
-                j2.setBackground(Color.WHITE)
-                this.add(j1)
-                this.add(j2)
-            }
-            else{
+                case "black" => {
+                    square.setBackground(Color.BLACK)
+                    string = "white"
+                }
+                case "white" =>{
+                    square.setBackground(Color.WHITE)
+                    string = "black"
+                }
                 
-                j1.setBackground(Color.WHITE)
-                j2.setBackground(Color.BLACK)
-                this.add(j1)
-                this.add(j2)
-                
-            }
-            
-            if(count == 4){
-                swap = !swap
-                count = 1
             }
             
-            i = i - 1
-            
+            this.add(square)
+            count = count + 1
+            if (count == 8){//Every 8 squares the colour needs to be swapped to ensure the next row of squares is the opposite of the current row
+                
+                string match {
+                    
+                    case "black" => {
+                        string = "white"
+                    }
+                    case "white" =>{
+                        string = "black"
+                    }
+                    
+                }
+                count = 0
+                
+            }
+            x = x - 1
         }
+        
+        
+        
     }
     
     
