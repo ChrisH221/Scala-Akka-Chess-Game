@@ -1,7 +1,6 @@
 [debug] Other repositories:
 [debug] Default repositories:
 [debug] Using inline dependencies specified in Scala.
-[debug] no default cache defined: set to C:\Users\Chris\.ivy2\cache
 [debug] :: resolving dependencies :: default#scala-akka-chess-game$sbt_2.10;0.1-SNAPSHOT
 [debug] 	confs: [default]
 [debug] 	validate = true
@@ -748,9 +747,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.9!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
-[debug] :: resolution report :: resolve 2833ms :: artifacts dl 312ms
+[debug] :: resolution report :: resolve 4808ms :: artifacts dl 445ms
 [debug] 	report for default#scala-akka-chess-game$sbt_2.10;0.1-SNAPSHOT default produced in C:\Users\Chris\Documents\GitHub\Scala-Akka-Chess-Game\target\resolution-cache\reports\default-scala-akka-chess-game$sbt_2.10-default.xml
-[debug] 	resolve done (2833ms resolve - 312ms download)
+[debug] 	resolve done (4808ms resolve - 445ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#scala-akka-chess-game$sources_2.10;0.1-SNAPSHOT
 [debug] 	confs: [default]
@@ -1120,6 +1119,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.9!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.9!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.9!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 156ms :: artifacts dl 57ms
+[debug] :: resolution report :: resolve 194ms :: artifacts dl 303ms
 [debug] 	report for default#scala-akka-chess-game$sources_2.10;0.1-SNAPSHOT default produced in C:\Users\Chris\Documents\GitHub\Scala-Akka-Chess-Game\target\resolution-cache\reports\default-scala-akka-chess-game$sources_2.10-default.xml
-[debug] 	resolve done (156ms resolve - 57ms download)
+[debug] 	resolve done (194ms resolve - 303ms download)

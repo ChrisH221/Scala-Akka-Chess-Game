@@ -1,4 +1,4 @@
-Class Validator{
+class Validator{
 
 
 

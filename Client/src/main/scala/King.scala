@@ -1,4 +1,0 @@
-class King with Piece{
-
-
-}

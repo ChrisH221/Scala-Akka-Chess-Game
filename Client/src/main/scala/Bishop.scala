@@ -1,4 +1,0 @@
-class Bishop with Piece{
-
-
-}
