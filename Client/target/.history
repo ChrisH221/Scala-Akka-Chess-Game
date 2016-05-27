@@ -41,10 +41,3 @@ sbt
 update
 compile
 run
-compile
-run
-sbt run
-run
-update
-compile
-run

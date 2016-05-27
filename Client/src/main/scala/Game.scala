@@ -1,5 +1,3 @@
-
-
 import akka.actor.Actor
 import akka.actor.ActorSystem
 import akka.actor.Props
@@ -12,20 +10,12 @@ class actor extends Actor {
   }
 }
 
-class Game{
-
-  val board = new Board()
-  board.setup
-
-  
-
-}
-
 object Main extends App {
 // val system = ActorSystem("System")
   
   //val Actor = system.actorOf(Props[actor], name = "helloactor")
 
- val g= new Game
+  val board = new ChessBoard()
+  board.setup
 
 }

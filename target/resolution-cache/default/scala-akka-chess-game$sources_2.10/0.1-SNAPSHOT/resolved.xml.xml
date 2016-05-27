@@ -4,7 +4,7 @@
 		module="scala-akka-chess-game$sources_2.10"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160519102226"
+		publication="20160515135711"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
